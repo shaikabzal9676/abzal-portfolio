@@ -1,0 +1,124 @@
+.contact{
+    padding-left: 200px;
+    margin-bottom: 60px;
+    
+    
+}
+.card0{
+  box-shadow: rgba(116, 99, 99, 0.35) 0px 5px 15px;    
+  border-radius: 10px;
+  
+}
+
+.card2{
+    margin: 0px 40px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.card1 .image{
+    padding: 30px;
+    height: 100%;
+    width:100%;
+    margin-top: 20px;
+    
+}
+
+.border-line{
+  margin-top: 30px;
+    border-right: 1px solid var(--darkgray);
+}
+
+.or {
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+  }
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: var(--darkgray);
+    margin-top: 10px;
+  }
+
+
+  ::placeholder{
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+  }
+
+  input ,textarea{
+    color: #138781;
+    padding: 10px 12px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+  }
+
+  input:focus,
+textarea:focus {
+  box-shadow: none !important;
+  outline: 1px solid var(--orange) !important;
+  outline-width: 0px;
+}
+
+button:focus {
+    box-shadow: none;
+    outline-width: 0px;
+  }
+  
+  .button {
+    background-color: var(--orange);
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+    
+  }
+  
+
+  .button:hover {
+    background-color: #000;
+    
+    color: white;
+    transition: ease-in-out;
+  }
+  
+
+  @media (max-width:600px) {
+    .contact{
+      padding: 0;
+      margin: 0;
+      margin-top: 30px;
+  
+    }
+    
+    .contact .card2{
+      margin: 0;
+    }
+    .contact .card0{
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+    }
+    .contact .card2 h6{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact .card2 .button{
+      background-color: rgb(46, 6, 84);
+    }
+
+
+    
+  }

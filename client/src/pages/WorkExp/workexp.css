@@ -1,0 +1,16 @@
+.work{
+    margin-top: 60px;
+
+    padding-left:200px ;
+}
+
+.work hr{
+    color:#138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.work h2{
+    font-weight: bold;
+    color: #138781;
+}

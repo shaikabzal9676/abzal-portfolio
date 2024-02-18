@@ -1,0 +1,44 @@
+:root {
+  --black: #000000;
+  --orange: #f15a24;
+--gray:#707070;
+--darkgray :#37363d;
+--brown:#886a4a;
+}
+
+.footer {
+  background-color: var(--darkgray);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  height: 80px;
+  
+}
+.container{
+    font-family: cursive;
+    
+}
+.homepage{
+  background-color: var(--black)
+}
+
+@media (max-width:600px) {
+  .footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    
+  }
+  .footer h4{
+    font-size:20px
+  }
+  
+}
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+.education {
+  margin: 40px 0;
+  padding-left: 200px;
+}
+
+
+.education h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.vertical-timeline-element-date{
+  color: var(--orange);
+}
+.education hr{
+    color: var(--orange);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2{
+    color: var(--orange);
+    font-weight: bold;
+  
+}
+.e
+
+.education .vertical-timeline-element-title{
+    color: var(--orange);
+  
+}
+
+
+@media (max-width:600px) {
+  .education{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .education h2{
+    padding-top: 20px;
+  }
+  .education hr{
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  .education h2{
+    font-size: 24px;
+  }
+  .education h3{
+    font-size: 16px;
+  }
+  .education h4{
+    font-size: 16px;
+  }
+}
+
+
